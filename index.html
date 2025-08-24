@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gameplay - Site Oficial</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0a0a0a;
+      color: #00ff66;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: #000;
+      box-shadow: 0 0 20px #00ff66;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #00ff66;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+      text-shadow: 0 0 10px #00ff66;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(180deg, #0a0a0a, #000);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 15px #00ff66;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      color: #ccc;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #00ff66;
+    }
+
+    .jogos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 0 15px #00ff66;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #00ff66;
+    }
+
+    .contato a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border: 2px solid #00ff66;
+      border-radius: 8px;
+      color: #00ff66;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .contato a:hover {
+      background: #00ff66;
+      color: #000;
+      box-shadow: 0 0 20px #00ff66;
+    }
+
+    footer {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="imagem/ChatGPT Image 24 de ago. de 2025, 15_08_16.png" alt="Logo Gameplay">
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#jogos">Jogos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h1>Bem-vindo à Gameplay 🎮</h1>
+    <p>O universo gamer em um só lugar!</p>
+  </section>
+
+  <section class="section" id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos a Gameplay, apaixonados por games como League of Legends, Call of Duty e Need for Speed. 
+       Nosso objetivo é trazer entretenimento e conteúdo gamer de qualidade para você.</p>
+  </section>
+
+  <section class="section" id="jogos">
+    <h2>Jogos em Destaque</h2>
+    <div class="jogos">
+      <div class="card">
+        <h3>League of Legends</h3>
+        <p>Batalhas épicas e estratégia sem limites.</p>
+      </div>
+      <div class="card">
+        <h3>Call of Duty</h3>
+        <p>Ação intensa e tiroteios eletrizantes.</p>
+      </div>
+      <div class="card">
+        <h3>Need for Speed</h3>
+        <p>Corridas insanas e muita adrenalina.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contato" id="contato">
+    <h2>Entre em Contato</h2>
+    <p>Siga nossas redes sociais e faça parte da comunidade Gameplay!</p>
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    <a href="https://youtube.com" target="_blank">YouTube</a>
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+    <a href="https://wa.me/55SEUNUMERO" target="_blank">WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Gameplay - Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    // Efeito simples ao carregar
+    document.addEventListener("DOMContentLoaded", () => {
+      alert("Seja bem-vindo à Gameplay! 🚀");
+    });
+  </script>
+</body>
+</html>
